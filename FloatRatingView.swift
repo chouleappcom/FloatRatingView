@@ -6,7 +6,9 @@
 //  Copyright (c) 2014 On The Pursuit. All rights reserved.
 //
 
+import Foundation
 import UIKit
+import CoreGraphics
 
 @objc public protocol FloatRatingViewDelegate {
     /// Returns the rating value when touch events end

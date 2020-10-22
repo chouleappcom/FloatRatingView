@@ -11,7 +11,8 @@ let package = Package(
     ],
     targets: [
         .target(name: "FloatRatingView",
-            path: "."
+            path: ".",
+            sources: ["FloatRatingView.swift"]
         )
     ]
 )
